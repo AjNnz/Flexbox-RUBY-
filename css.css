@@ -68,6 +68,7 @@ header{
     justify-content: center;
     border: 1px solid #D3003F;
     background-color: white;
+    
   }
   
   .flip-box-front img {
@@ -79,9 +80,9 @@ header{
   .flip-box-back {
     background-color: #D3003F; 
     color: black;
-    transform: rotateY(180deg);
-    padding: 2%;
+    transform: rotateY(180deg);  
   }
+
   
   .flip-box:hover .flip-box-inner {
     transform: rotateY(180deg); 
@@ -114,3 +115,8 @@ header{
   b {
     font-size: 20px;
     }
+
+  .p3 {
+    text-align: justify; 
+    padding: 2%;
+  }
